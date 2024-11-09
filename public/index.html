@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon" />
+    <title>JamesBondi</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-intop">
+        <div class="container-logotext">
+          <a href="./index.html">
+            <img src="./media/text/navbar-logotext.png" alt="logoText" />
+          </a>
+        </div>
+        <div class="navbar-centerlogo">
+          <img src="./media/icons/navbar-centerlogo.png" alt="bondiLogo" />
+        </div>
+        <div class="container-search-socials">
+          <div class="container-search">
+            <form action="">
+              <input type="submit" value="" id="searchButton" />
+              <input type="search" name="buscar" id="searchInput" />
+            </form>
+          </div>
+          <div class="container-socials">
+            <ul>
+              <li>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-flex" id="desktop-top-border">
+        <div class="border-divider">&nbsp;</div>
+      </div>
+
+      <div class="container-navbar">
+        <div class="navbar-list">
+          <ul>
+            <li><a href="./index.html">Inicio</a> <div class="currentSection">
+              &nbsp;
+            </div></li>
+            <li><a href="./secciones/obtenapp.html">Obtén la app</a></li>
+            <li><a href="./secciones/recorridos.html">Recorridos</a></li>
+            <li><a href="./secciones/plan.html">Premium</a></li>
+            <li><a href="./secciones/quienes-somos.html">Quienes somos</a></li>
+            <li><a href="./secciones/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <header id="mobile-header">
+      <div class="mobile-navbar-container">
+        <div class="mobile-logo-container">
+          <img src="./media/icons/navbar-centerlogo.png" alt="">
+        </div>
+        <div class="sidebar-bars">
+          <button type="button" onclick="openSideNav()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+      <div class="border-flex" id="mobile-top-border">
+        <div class="border-divider">&nbsp;</div>
+      </div>
+    </header>
+
+    <div class="mobile-sidebar">
+      <div class="sidebar-container">
+        <div class="text-button">
+          <button type="button" onclick="openSideNav()"><i class="fa-solid fa-bars"></i></button>
+          <div class="top-text-sidenav">
+            <span>JamesBondi Web - Menu</span>
+          </div>
+        </div>
+        <div class="mobile-sections-nav">
+          <ul>
+            <li><a href="./index.html">INICIO</a></li>
+            <li><a href="./secciones/obtenapp.html">Obten la App</a></li>
+            <li><a href="./secciones/recorridos.html">Recorridos</a></li>
+            <li><a href="./secciones/plan.html">Pásate a Premium</a></li>
+            <li><a href="./secciones/quienes-somos.html">Quienes Somos</a></li>
+            <li><a href="./secciones/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-mobile-title">
+      <h3>James Bondi</h3>
+      <span>"No llegues tarde a tu misión diaria."</span>
+    </div>
+
+    <div class="container-img-bg">
+      <div class="img-background">
+        <img src="./media/background/jamesbondi-background.png" alt="jamesBondiBackground"/>
+      </div>
+    </div>
+
+    <div class="border-flex">
+      <div class="border-divider">&nbsp;</div>
+    </div>
+
+    <div class="info-container">
+      <div class="info-box">
+        <h3>¡Conéctate con tu colectivo como nunca antes!</h3>
+        <h4>
+          En JamesBondi, entendemos que tu tiempo es valioso. Sabemos lo
+          frustrante que puede ser esperar por un colectivo sin tener idea de
+          cuándo llegará. Por eso, hemos creado una solución integral para
+          mejorar tu experiencia de viaje.
+        </h4>
+      </div>
+      <div class="img-info">
+        <img src="./media/background/gps-cole.png" alt="">
+      </div>
+    </div>
+
+    <div class="info-container">
+      <div class="img-info">
+        <img src="./media/background/problem.jpeg" alt="">
+      </div>
+      <div class="info-box">
+        <h3>¿Cuál es el problema?</h3>
+        <h4>
+          Los usuarios de colectivos enfrentan a diario la incertidumbre de los
+          tiempos de espera y la falta de información clara sobre las rutas.
+          Esto puede llevar a retrasos, malestar y pérdida de tiempo.
+        </h4>
+        <br>
+        <h3>Nuestra solución:</h3>
+        <h4>
+          Con JamesBondi, podrás rastrear tus colectivos en tiempo real.
+          Ofrecemos un servicio que te permite conocer la ubicación exacta de
+          los colectivos, visualizar sus rutas y recibir estimaciones precisas
+          de los tiempos de llegada. Ya no tendrás que esperar sin saber; ahora
+          podrás planificar tus viajes con confianza.
+        </h4>
+      </div>
+    </div>
+
+    <div class="info-container">
+      <div class="info-box">
+        <h3>Características Principales:</h3>
+        <ul>
+          <li>
+            <p>
+              Rastreo en Tiempo Real: Consulta la ubicación de tu colectivo en
+              un mapa interactivo.
+            </p>
+          </li>
+          <li>
+            <p>
+              Rutas y Paradas: Descubre el recorrido completo y las paradas en
+              el trayecto.
+            </p>
+          </li>
+          <li>
+            <p>
+              Estimación de Tiempos de Demora: Conoce cuánto tiempo falta para
+              que llegue tu colectivo.
+            </p>
+          </li>
+          <li>
+            <p>
+              Lista de Horarios: Accede a horarios programados para planificar
+              tus viajes con antelación.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="img-info">
+        <img src="./media/background/features.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="info-container">
+      <div class="img-info">
+        <img src="./media/background/profit.png" alt="">
+      </div>
+      <div class="info-box">
+        <h3>Beneficios para ti:</h3>
+        <ul>
+          <li>
+           Ahorra tiempo: Optimiza tus viajes y evita esperas innecesarias.
+          </li>
+         <li>
+           Mejor planificación: Organiza tu día con información precisa y
+            actualizada.
+          </li>
+          <li>
+           Comodidad: Disfruta de una experiencia de viaje más fluida y
+            eficiente.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-container">
+      <div class="info-box" id="infoWorks">
+        <h3>¿Cómo funciona?</h3>
+      <p>Es fácil y rápido:</p>
+      <ol>
+        <li>Regístrate en nuestra app.</li>
+        <li>Selecciona tu ruta o colectivo.</li>
+        <li>Visualiza la ubicación en tiempo real y recibe notificaciones sobre cualquier cambio.</li>
+      </ol>
+      </div>
+    </div>
+
+    <div class="border-flex">
+      <div class="border-divider">&nbsp;</div>
+    </div>
+
+    <div class="end-container">
+      <div class="info-box">
+        <h3>¡Únete a nosotros!</h3>
+        <h4>
+          Descarga JamesBondi hoy mismo y transforma la forma en que viajas en
+          colectivo. Conéctate con tu colectivo y disfruta cada minuto de tu
+          tiempo. Porque cada segundo cuenta.
+        </h4>
+        <br />
+        <p>
+          Para más información, o si tienes alguna pregunta, no dudes en
+          <a href="./secciones/contacto.html">contactarnos</a>.
+        </p>
+        <br />
+        <p>¡Bienvenido a la nueva era del transporte público!</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="content-container">
+          <div class="dateInc">
+            <span>2024 JamesBondi</span>
+          </div>
+          <div class="divider-footer">
+            &nbsp;
+          </div>
+          <div class="copy-container">
+            <p>Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/21f1cfa061.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

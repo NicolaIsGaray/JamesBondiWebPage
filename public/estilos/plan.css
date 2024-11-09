@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Markazi+Text:wght@400..700&family=Mitr:wght@200;300;400;500;600;700&family=Oswald:wght@200..700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+/* Mobile Displays */
+
+#mobile-header {
+    position: fixed;
+    top: 0rem;
+    background-color: white;
+    width: 100%;
+}
+
+.mobile-navbar-container {
+    display: none;
+}
+
+.mobile-sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    position: fixed;
+    top: 0rem;
+}
+
+.mobile-sidebar-open {
+    transform: translateX(0);
+}
+
+#mobile-top-border {
+    display: none;
+}
+
+.mobile-main-section {
+    display: none;
+}
+
+.card-container h3 {
+    display: none;
+}
+
+/* Main Navbar */
+
+.container-intop {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 6vw 2vw 6vw;
+}
+
+.container-logotext {
+    margin-top: 3vw;
+    width: 10%;
+}
+
+.container-logotext img{
+    height: auto;
+    width: 20vw;
+}
+
+.navbar-centerlogo img {
+    width: 10vw;
+    height: auto;
+}
+
+.container-search-socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-search #searchInput:focus {
+    outline: none;
+    border-radius: 0px;
+    transition: all .1s ease;
+}
+
+#searchButton {
+    background-image: url("../media/icons/searchbutton.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    background-position-x: center;
+    height: 1.8vw;
+    width: 2vw;
+    border: none;
+    transition: all .3s ease;
+}
+
+#searchButton:hover {
+    transform: scale(1.2);
+    transition: all .3s ease;
+}
+
+#searchInput {
+    padding: 6px;
+    background-color: rgb(211, 211, 211);
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 12px;
+    transition: all .3s ease;
+}
+
+.container-socials ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-socials a {
+    color: black;
+}
+
+.container-socials i {
+    transform: scale(1.8);
+    margin-top: 1vw;
+}
+
+.container-socials ul>li {
+    list-style: none;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-list ul>li {
+    padding: 0vw 5vw;
+    margin-top: 1vw;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.navbar-list li>a {
+    color: black;
+    text-decoration: none;
+}
+
+.currentSection {
+    background-color: black;
+    width: 100%;
+    height: 4px;
+}
+
+/* Divider */
+
+.border-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.border-divider {
+    background-color: black;
+    height: 6px;
+    width: 88%;
+    border-radius: 2px;
+}
+
+/* Footer */
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    height: 14vw;
+}
+
+.content-container {
+    display: flex;
+    margin-top: 6vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider-footer {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+/* Card  */
+
+.card-container {
+    display:  flex;
+    justify-content: space-evenly;
+    margin: 6vw 0vw 6vw 0vw
+}
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    width: 500px;
+    height: 620px;
+    box-shadow: 10px 10px 0px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Mitr", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    cursor: default;
+}
+
+.plan-title {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.plan-card span {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    width: 20vw;
+}
+
+.plan-card ul {
+    list-style: none;
+}
+
+.plan-card li {
+    margin-bottom: 1vw;
+}
+
+.plan-pro li>i {
+    color: green;
+    transform: scale(1.2);
+    margin-right: 1vw;
+}
+
+.plan-pro a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.plan-agent a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.plan-agent li>i {
+    color: rgb(204, 174, 2);
+    transform: scale(1.2);
+    margin-right: 1vw;
+}
+
+.card-divider {
+    background-color: black;
+    width: 75%;
+    height: 1px;
+}
+
+.subscribeButtonPro {
+    margin-top: 2vw;
+    cursor: pointer;
+    width: 200px;
+    height: 64px;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subscribeButtonAgent {
+    margin-top: 3vw;
+    cursor: pointer;
+    width: 200px;
+    height: 64px;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Mobile Style  */
+
+@media (max-width: 480px) {
+
+    .container-intop {
+        display: none;
+    }
+
+    .container-navbar {
+        display: none;
+    }
+
+    .container-img-bg {
+        display: none;
+    }
+
+    #desktop-top-border {
+        display: none;
+    }
+
+    #mobile-top-border {
+        display: flex;
+    }
+
+    #mobile-header {
+        z-index: 2;
+    }
+
+    .mobile-sidebar {
+        z-index: 2;
+    }
+
+    .mobile-navbar-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .mobile-logo-container {
+        margin: 0vw 16vw 0vw 16vw;
+    }
+    
+    .mobile-logo-container img {
+        width: 150px;
+        height: auto;
+    }
+    
+    .sidebar-bars {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .sidebar-bars button {
+        border: none;
+        background-color: transparent;
+        transform: scale(1.8);
+    }
+
+    .sidebar-container {
+        background-color: rgb(211, 211, 211);
+        width: 24rem;
+        height: 70.1rem;
+        font-family: "Mitr", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .sidebar-container button {
+        border: none;
+        background-color: transparent;
+        transform: scale(1.8);
+        padding: 0rem 0rem 0rem 1.8rem;
+    }
+
+    .text-button {
+        display: flex;
+        padding: 2rem 0rem 0rem;
+        align-items: center;
+    }
+
+    .top-text-sidenav {
+        position: relative;
+        left: 2rem;
+        margin: 2rem 0rem 2rem 0rem
+    }
+
+    .mobile-sections-nav {
+        margin: 0rem
+    }
+
+    .mobile-sections-nav ul {
+        padding: 0px;
+    }
+
+    .mobile-sections-nav ul>li {
+        list-style: none;
+        padding: 1rem;
+        background-color: rgb(182, 182, 182);
+    }
+
+    .mobile-sections-nav a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .footerContainer {
+        height: 12rem;
+    }
+
+    .card-container {
+        margin-top: 14rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-card {
+        box-shadow: 10px 10px 0px 2px rgba(0, 0, 0, 0.5);
+        height: auto;
+        width: 24rem;
+        margin-bottom: 6rem;
+    }
+
+    .plan-card i {
+        position: relative;
+        z-index: 1;
+    }
+
+    .plan-card span {
+        width: 18rem;
+    }
+
+    .card-container h3 {
+        display: inherit;
+    }
+}
