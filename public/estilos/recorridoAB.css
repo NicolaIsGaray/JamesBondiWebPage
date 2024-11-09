@@ -245,7 +245,7 @@ body {
     }
 
     .mobile-logo-container {
-        margin: 0vw 16vw 0vw 16vw;
+        margin: 0vw 6vw 0vw 6vw;
     }
     
     .mobile-logo-container img {
@@ -327,10 +327,12 @@ body {
         width: 25rem;
         height: auto;
         margin-top: 4rem;
+        display: flex;
+        justify-content: center;
     }
 
     .tracked-map {
-        width: 25rem;
-        height: 30rem;
+        width: 20rem;
+        height: 26rem;
     }
 }
