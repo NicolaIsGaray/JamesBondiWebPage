@@ -218,6 +218,11 @@ body {
     width: 20vw;
 }
 
+.plan-card a {
+    color: black;
+    cursor: help;
+}
+
 .plan-card ul {
     list-style: none;
 }

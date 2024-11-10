@@ -113,14 +113,14 @@
           <div class="card-divider">
             &nbsp;
           </div>
-          <button type="button" class="subscribeButtonPro">Suscribirme</button>
+          <button type="button" class="subscribeButtonPro" onclick="subscribed()">Suscribirme</button>
         </div>
         <div class="plan-card">
           <p>4.500 ARS/Mes</p>
           <div class="card-divider">
             &nbsp;
           </div>
-          <span class="plan-title">Agente Secreto</span>
+          <span class="plan-title"><a href="#" id="secret">Agente Secreto</a></span>
           <span>El plan "Agente Secreto" incluye tanto las funciones de "Profesional" y agrega las siguientes:</span>
           <ul class="plan-agent">
             <li><i class="fa-solid fa-circle-check"></i>Acceso a <a href="./recorridos.html">recorridos</a> actualizados al día.</li>
@@ -134,7 +134,7 @@
           <div class="card-divider">
             &nbsp;
           </div>
-          <button type="button" class="subscribeButtonAgent">Suscribirme</button>
+          <button type="button" class="subscribeButtonAgent" onclick="subscribed()">Suscribirme</button>
         </div>
       </div>
 
@@ -154,6 +154,7 @@
         </div>
       </footer>
 
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script src="./plan.js"></script>
       <script src="https://kit.fontawesome.com/21f1cfa061.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
